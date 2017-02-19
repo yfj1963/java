@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+D:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4192364221.index
+\demo\src
+D:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2173475040.index
+\Shopping\src
+D:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\925634925.index
+\Shopping\src
+D:\eclipseworkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\708191270.index
+\Shopping\src

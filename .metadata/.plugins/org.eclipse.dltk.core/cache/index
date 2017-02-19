@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="D:/javaproject/Shopping/WebRoot/admin/script/AdminTree.js" timestamp="1190082388000" lastAccessTime="1487340490870"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/admin/script/TV20.js" timestamp="1190082388000" lastAccessTime="1487340490883"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/admin/script/regcheckdata.js" timestamp="1190082388000" lastAccessTime="1487340490854"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/admin/tree/script/TV20.js" timestamp="1190271864000" lastAccessTime="1487340490974"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/ajax.js" timestamp="1190082386000" lastAccessTime="1487340490889"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/animate.js" timestamp="1190082386000" lastAccessTime="1487340490845"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/area.js" timestamp="1190082386000" lastAccessTime="1487340490946"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/common.js" timestamp="1190082386000" lastAccessTime="1487340490858"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/monitor.js" timestamp="1190082388000" lastAccessTime="1487340490944"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/monitorStatic.js" timestamp="1190082388000" lastAccessTime="1487340490892"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/piaochuang.js" timestamp="1190082388000" lastAccessTime="1487480662734"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/textButton.js" timestamp="1190082388000" lastAccessTime="1487340490980"/>
+  <entries path="D:/javaproject/Shopping/WebRoot/images/textStatic.js" timestamp="1190082388000" lastAccessTime="1487340490838"/>
+</cache:CacheIndex>

@@ -1,0 +1,77 @@
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%
+String username = request.getParameter("username");
+String password = request.getParameter("password");
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'index.jsp' starting page<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"></title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+  </head>
+  <table width="100%" border="0" cellspacing="0" cellpadding="4">
+
+  <tr> 
+
+    <td bgcolor="#000099"> 
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="4">
+
+        <tr> 
+
+          <td bgcolor="#FFFFFF">&nbsp;<b>*</b>&nbsp;</td>
+
+          <td width="100%"><font color="#CCCCCC">&nbsp; <font color="#FFFFFF"><strong>Title</strong></font></font></td>
+
+        </tr>
+
+      </table></td>
+
+  </tr>
+
+  <tr> 
+
+     <td width="100%" bgcolor="#EAEAEA" colspan="2"> 
+
+      <form name="Name" action="post"><p>
+
+          <label for="textfield">Field 1: </label>
+
+          <input type="text" name="textfield" id="textfield">
+
+        </p>
+
+        <p> 
+
+          <input type="submit" name="Submit" value="Submit">
+
+        </p>
+
+    </form>
+
+  </td>
+
+  </tr>
+
+</table>
+<Table>
+	<Tr>
+		<td>My Table  </Td>
+	</Tr>
+</Table> 
+  <body>
+    This is my JSP page. <br>
+  </body>
+</html>

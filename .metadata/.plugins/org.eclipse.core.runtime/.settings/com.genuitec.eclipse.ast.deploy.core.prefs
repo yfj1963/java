@@ -1,0 +1,14 @@
+#Sat Feb 18 21:12:42 CST 2017
+myeclipseTomcatServer.demo.isExploded=true
+myeclipseTomcatServer.demo.shouldOverwrite=false
+myeclipseTomcatServer.demo.isUptoDate=true
+myeclipseTomcatServer.demo.type=WebDeployment
+myeclipseTomcatServer.demo.IEARProjectName=
+myeclipseTomcatServer.demo.deployIsOverProject=false
+eclipse.preferences.version=1
+myeclipseTomcatServer.demo.isDeployed=true
+myeclipseTomcatServer.demo.deploymentPath=D\:\\eclipseworkspace\\.metadata\\.me_tcat\\webapps\\demo
+myeclipseTomcatServer.demo.noFileCopy=false
+myeclipseTomcatServer.demo.altContextRoot=/demo
+myeclipseTomcatServer.demo.shouldBackup=false
+myeclipseTomcatServer.demo.contextRoot=/demo

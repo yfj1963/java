@@ -1,0 +1,73 @@
+<%@ page language="java" import="java.util.*" pageEncoding="GB18030"%>
+<%
+String username = request.getParameter("username");
+String password = request.getParameter("password");
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'index.jsp' starting page<meta http-equiv="keywords" content="keyword1,keyword2,keyword3"></title>
+	<meta http-equiv="pragma" content="no-cache">
+
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+  </head>
+
+                              <td align="right" valign="top" width="196"><table border="0" cellpadding="0" cellspacing="0" width="196">
+                                  <tbody>
+                                    <tr>
+                                      <td><img src="images/paihang_top.gif" height="88" width="196"></td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center" background="images/paihang_bg.gif"><table style="border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="170">
+                                          <tbody>
+                                            <tr>
+                                              <td height="25"><img src="images/tou_02.gif"><a href="http://www.thinkshop.cn/index_pi.php?productcode=GT1025" class="twoji" title="贝尔金护腕式鼠标垫">nothing</a></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="2"><img src="images/xian.gif" height="1" width="170"></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="25"><img src="images/tou_03.gif"><a href="http://www.thinkshop.cn/index_pi.php?productcode=GT0855" class="twoji" title="3M 屏幕及键盘清洁套装">nothing</a></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="2"><img src="images/xian.gif" height="1" width="170"></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="25"><img src="images/tou_02.gif"><a href="http://www.thinkshop.cn/index_pi.php?productcode=GT0856" class="twoji" title="3M 可调节笔记本底座-立式">nothing</a></td>
+                                            </tr>
+
+
+                                          </tbody>
+                                        </table></td>
+                                    </tr>
+                                    <tr>
+                                      <td><img src="images/paihang_up.gif" height="17" width="196"></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="5"></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a title="商城招募校园代理火爆进行中！激起创业的激情！" target="_blank" href="http://www.thinkshop.cn/sales/campus"><img src="images/fcthink2.gif" border="0" height="66" width="194"></a></td>
+                                    </tr>
+                                  </tbody>
+                                </table></td>
+<Table>
+	<Tr>
+		<td>My Table  </Td>
+	</Tr>
+</Table> 
+  <body>
+    This is my JSP page. <br>
+  </body>
+</html>
