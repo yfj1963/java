@@ -1,0 +1,33 @@
+<%@ page language="java" import="java.util.*" pageEncoding="GB18030"%>
+<%@ page import="com.bjsxt.shopping.category.*"%>
+
+
+<html>
+<head>
+<me content="zh-cn"></me>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>商城 - 网上精品会员店</title>
+<link href="images/new.css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="images/new.css" rel="stylesheet" type="text/css">
+</head>
+<body onLoad="MM_preloadImages('images/00-2.gif','images/01-2.gif','images/02-2.gif','images/03-2.gif','images/04-2.gif','images/05-2.gif','images/06-2.gif','images/07-2.gif','images/08-2.gif','images/09-2.gif')">
+<script src="images/piaochuang.js"></script>
+
+</script>
+
+
+    <tr>
+      <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+        </table></td>
+    </tr>
+    <tr>
+      <td width="100%"><!--底部INC-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+</table>
+<script src="images/addnum.htm"></script>
+</body>
+</html>

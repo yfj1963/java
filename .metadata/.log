@@ -1687,3 +1687,15 @@ java.lang.NullPointerException
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at com.genuitec.pulse.eclipse.launcher.Main.main(Main.java:110)
+!SESSION 2017-02-19 20:02:30.138 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.genuitec.eclipse.core 1 0 2017-02-19 20:02:45.524
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-19 20:02:51.866
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
