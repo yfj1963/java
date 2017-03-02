@@ -1,0 +1,84 @@
+<html>
+
+<body>
+
+
+<h4>zhonm：</h4>
+<table border="1">
+
+<tr>
+
+  <td rowspan="3">空白</td>
+
+  <td >.....</td>
+  <td >....</td>
+  <td >.....</td>
+  <td >....</td>
+  <td rowspan="4">空白</td>
+</tr>
+<tr>
+  <td>
+<table border="1">
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+</table>
+</td>
+  <td>
+<table border="1">
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+</table>
+</td>
+  <td>
+<table border="1">
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+</table>
+</td>
+  <td  >
+<table border="1">
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+  <td colspan="2">555 77 856</td>
+
+  <td colspan="2" >555 33856</td>
+</tr>
+
+</table>
+
+
+
+</table>
+</html>
