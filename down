@@ -10,13 +10,41 @@
 
   <td rowspan="3">空白</td>
 
-  <td >.....</td>
-  <td >....</td>
-  <td >.....</td>
-  <td >....</td>
+  <td >关于我们</td>
+  <td >程序</td>
+  <td >测量</td>
+  <td >科技服务</td>
+  <td >公司产品</td>
+  <td >人才招聘</td>
   <td rowspan="4">空白</td>
 </tr>
 <tr>
+  <td>
+<table border="1">
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+</table>
+</td>
+  <td>
+<table border="1">
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+<tr>
+  <td  >555 788 36</td>
+</tr>
+</table>
+</td>
   <td>
 <table border="1">
 <tr>
@@ -71,9 +99,9 @@
 </td>
 </tr>
 <tr>
-  <td colspan="2">555 77 856</td>
+  <td colspan="3">友情链接</td>
 
-  <td colspan="2" >555 33856</td>
+  <td colspan="3" >版权所有</td>
 </tr>
 
 </table>
