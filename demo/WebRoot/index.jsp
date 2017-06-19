@@ -9,130 +9,116 @@
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	
-	<meta http-equiv="description" content="This is my page">
+	<meta http-equiv="description" content="This is my  ">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
   </head>
   <body>
 
-<table border="1" background="images/head.GIF" width="100%" height="100px">
+<table border="0" background="images/head.GIF" width="100%" height="10%">
 <tr>
-  <td >。</td>
+  <td ></td>
 </tr>
 
 
 </table>  
 
- <table border="1"  width="100%" height="100px">
-  
- <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+
+
+ <table border="1"  width="100%" height="5%">
+ <script type="text/javascript" src="images/lanrenzhijia.js"></script> 
 <script type="text/javascript"> 
 $(document).ready(function(){
-  $(".flip").mouseover(function(){
-    $(this).next("div").slideDown(500);
-  });
-  $(".content").mouseleave(function(){
-    $(this).children("div").slideUp(500);
-  });
+$("ul.lanrenzhijia").parent().append("<span></span>"); 
+$("ul.topnav li span").click(function() { 
+	$(this).parent().find("ul.lanrenzhijia").slideDown('fast').show(); 
+
+	$(this).parent().hover(function() {
+	}, function(){
+		$(this).parent().find("ul.lanrenzhijia").slideUp('slow'); 
+	});
+	}).hover(function() { 
+		$(this).addClass("subhover"); 
+	}, function(){	
+		$(this).removeClass("subhover"); 
+});
 });
 </script>
-<style type="text/css"> 
-div.panel,p.flip
-{
-  
-margin:0px;
-padding:10px;
-text-align:center;
-background-color: LightBlue;
-font-weight: bold;
-	<!--
-	<这个地方设置颜色>
-	-->
-border:solid 1px #c3c3c3;
-}
-
-p.flip2
-{
-  
-margin:0px;
-padding:10px;
-text-align:center;
-background-color: Teal;
-font-weight: bold;
-	<!--
-	<这个地方设置颜色>
-	-->
-border:solid 1px #c3c3c3;
-}
-
-div.panel
-{
-background-color: LightSkyBlue;  
-height:120px;
-display:none;
-}
-</style>
+<link href="images/lanrenzhijia.css" type="text/css" rel="stylesheet" />
 <body>
- <div class="content" style="float:left;display:block;width:100px;">
-<p  class="flip1"></p>
- </div>
+<table >
+<div class="lanrenzhijia">
+    <div id="header">
+        <ul class="topnav">      
+            <li><a href="index.jsp" ></a></li>         
+            <li><a href="index.jsp" ></a></li>          
+            <li><a href="index.jsp" ></a></li>         
+            <li><a href="index.jsp" ></a></li>           
+            <li><a href="index.jsp" ></a></li>         
+            <li><a href="index.jsp" ></a></li>        
+            <li><a href="index.jsp" >首页</a></li>
+            <li>
+                <a href="techService/buildAndTest.jsp">技术服务</a>
+                <ul class="lanrenzhijia">
+                    <li><a href="techService/buildAndTest.jsp"> 双荧光素酶载体构建及检测   </a></li>
+                    <li><a href="techService/EMSA.jsp"> EMSA（凝胶迁移实验）检测  </a></li>
+                    <li><a href="techService/KASP.jsp"> SNP分型新策略-KASP法.</a></li>
+                     <li><a href="germ.jsp">细菌和真菌种鉴定</a></li>    
+                     <li><a href="techService/Real-Time.jsp">Real-Time PCR（RT-qPCR）检测 </a></li>
+                    <li><a href="techService/Western-Blot.jsp">Western-Blot印记杂交检测 </a></li>                                         
+                </ul>
+            </li>        
+            <li>
+                <a href="testOrder/Expect.jsp">高通量测序</a>
+                <ul class="lanrenzhijia">
+                    <li><a href="testOrder/Expect.jsp">扩增子测序</a></li>
+                    <li><a href="testOrder/defineTest.jsp">宏基因组测序</a></li>
+                    <li><a href="testOrder/test.jsp">全转录组测序</a></li>
 
+                </ul>
+            </li>
+             <li><a href="#">产品中心</a>
+             
+             </li>           
+            <li>
+                <a href="aboutUs/Company.jsp">关于我们</a>
+                <ul class="lanrenzhijia">
+                    <li><a href="aboutUs/Company.jsp">公司简介</a></li>
+                    <li><a href="aboutUs/ServiceCore.jsp">服务宗旨</a></li>
+                    <li><a href="aboutUs/Addres.jsp">公司地址</a></li>
+                    <li><a href="aboutUs/Associated.jsp">联系方式</a></li>
 
- <div class="content" style="float:left;display:block;width:100px;">
-<p  class="flip2" ><a style="color:blue;font-size:16px;" href="http://www.baidu.com" class="twoji" title="新闻条目">首页</a></p>
- </div>
+                </ul>
+            </li>
+			<li>
+                <a href="joinUs/Analysts.jsp">加入我们</a>
+                <ul class="lanrenzhijia">
+                    <li><a href="joinUs/Analysts.jsp">分析员</a></li>
+                    <li><a href="joinUs/Engineer.jsp">工程师</a></li>
+                    <li><a href="joinUs/LabAssist.jsp">实验员</a></li>
 
-<div class="content"  style="float:left;display:block;width:120px;">
-<p class="flip" style="color:blue">关于我们</p>
-<div class="panel">
-<p><a  href="http://www.baidu.com" class="twoji" title=".">公司介绍</a></p>
-<p>公司特色</p>
-<p>公司文化</p>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </div>
- </div>
-
-<div class="content"  style="float:left;display:block;width:120px;">
-<p class="flip">科技服务</p>
-<div class="panel">
-<p>服务1</p>
-<p>服务2</p>
-<p>服务3</p>
-</div>
- </div>
-
-<div class="content"  style="float:left;display:block;width:120px;">
-<p class="flip">信息咨询</p>
-<div class="panel">
-<p>咨询1</p>
-<p>咨询2</p>
-<p>咨询3</p>
-</div>
- </div>
-
-<div class="content"  style="float:left;display:block;width:120px;">
-<p class="flip">人才招聘</p>
-<div class="panel">
-<p>招聘1</p>
-<p>招聘2</p>
-<p>招聘3</p>
-</div>
- </div>
-
-<div class="content" style="float:left;display:block;width:100px;">
-<p  class="flip1"></p>
- </div>
-
-</body> 
+</table>
+</body>
  </table>  
+ 
+ 
+ 
+ 
 
-<table border="1"  width="100%" height="100px">
+<table border="1"  width="100%" height="60%">
 
 <tr>
 
-  <td rowspan="4" width="400px" height="200px">空白</td>
 
-  <td colspan="5">
+  <td rowspan="4" width="400px" height="200px"></td>
+  <td colspan="5"  >
 
 
 <body onLoad = "autoChangeImage();">
@@ -142,41 +128,40 @@ var i = 1;
 function autoChangeImage(i){				//鑷姩鏀瑰彉鍥剧墖
 		setTimeout("changeImage(i++); ", 1500);
 		setTimeout("back(i); ", 1000);
-		setTimeout("autoChangeImage(i = (i%5)); ", 1500);
+		setTimeout("autoChangeImage(i = (i%4)); ", 1500);
 }
 function changeImage(idNum){
 		document.getElementById("radio" + idNum).checked = "checked";
 		switch(idNum){
 			case 0:
-				document.getElementById("imgIndex").style.backgroundImage = "url(images/1.png)";//鏀瑰彉棣栭〉鍥剧墖
+				document.getElementById("imgIndex").style.backgroundImage = "url(images/one.png)";//鏀瑰彉棣栭〉鍥剧墖
 				break;
 			case 1:
-				document.getElementById("imgIndex").style.backgroundImage = "url(images/2.png)";
+				document.getElementById("imgIndex").style.backgroundImage = "url(images/two.png)";
 				break;
 			case 2:
-				document.getElementById("imgIndex").style.backgroundImage = "url(images/3.png)";
+				document.getElementById("imgIndex").style.backgroundImage = "url(images/three.png)";
 				break;
 			case 3:
-				document.getElementById("imgIndex").style.backgroundImage = "url(images/4.png)";
+				document.getElementById("imgIndex").style.backgroundImage = "url(images/four.png)";
 				break;
-			case 4:
-				document.getElementById("imgIndex").style.backgroundImage = "url(images/4.png)";
-				break;
+
 		}
 }
 </script>
 <style type="text/css"> 
 			#contain{
 				float:left;
-				width: 900px;
-				height: 240px;
+				width: 1000px;
+				height: 400px;			
 				border: 1px dotted red;
 			}
 			.imageShow{
-				width: 900px;
-				height: 238px;
+				width: 100%;
+				height: 400px;
 				border: 1px dashed Olive;
-				background: url(images/1.png);
+				background-size: contain;  
+				background: url(images/one.png) no-repeat;
 			}
 			#posi{
 				margin: -30px 0 0 700px;
@@ -186,21 +171,22 @@ function changeImage(idNum){
 			.radio{
 				width: 15px;
 				height: 15px;
-				margin-left: -8px;
+				margin-left: -1px;
 				cursor: pointer;
 				background: red;
 			}
 </style>
-        <div id = "contain">  <!--图片展示内容框-->
+        <div id = "contain" >  <!--图片展示内容框-->
                 <div id = "imgIndex" class = "imageShow">     <!--默认显示图片框-->
                 </div>
                 <div id = "posi"><!--按钮位置-->
+               <!--  
                     <input id = "radio0" class = "radio" name = "lit" type = "radio" value = "0" onClick="changeImage(0)" />
                     <input id = "radio1" class = "radio" name = "lit" type = "radio" value = "0" onClick="changeImage(1)" />
                     <input id = "radio2" class = "radio" name = "lit" type = "radio" value = "0" onClick="changeImage(2)" />
                     <input id = "radio3" class = "radio" name = "lit" type = "radio" value = "0" onClick="changeImage(3)" />
-                    <input id = "radio4" class = "radio" name = "lit" type = "radio" value = "0" onClick="changeImage(4)" />
-                </div>    
+               -->
+               </div>    
         </div>
 
 
@@ -210,53 +196,13 @@ function changeImage(idNum){
 </td>
 
 
-  <td rowspan="4" width="400px" height="200px">空白</td>
+  <td rowspan="4" width="400px" height="200px"></td>
 </tr>
 <tr>
+  <td  align="center" ><a style="color:blue;font-size:20px;" class="twoji" ><img src="images/index1.png" width="100%" height="100%"></a>1</td>
+  <td  align="center" ><a style="color:blue;font-size:20px;" class="twoji" ><img src="images/index2.png" width="100%" height="100%"></a></td>
+  <td  align="center" ><a style="color:blue;font-size:20px;" class="twoji" ><img src="images/index3.png" width="100%" height="100%"></a></td>
 
-  <td colspan="3">
-  <table border="1">
-  <tr>
-  <td>热门服务</td>
-<td align="right" width="800px" height="90px">构型</td>
-  </tr>
-  </table>
-  </td>
-
-
-  <td  align="center" width="20px" height="10px" bgColor="#00ffff" nowrap="nowrap">新闻动态</td>
-   <td  align="right"><a style="color:blue;font-size:16px;" href="http://www.baidu.com" class="twoji" title="新闻条目">更多<< </a> </td> 
-</tr>
-<tr>
-  <td><img src="images/br0103.gif"  alt=" " /></td>
-  <td><img src="images/br0106.gif"  alt=" " /></td>
-  <td><img src="images/br0109.gif"  alt=" " /></td>
-  <td align="left" rowspan="2" colspan="2">
-<table border="1" >
-<tr>
-  <td> << </td>
-  <td width="150px"><a style="color:blue;font-size:16px;" href="http://www.baidu.com" class="twoji" title="新闻条目">xinwen1</a> </td>
-  <td align="right" width="10px">3</td>
-</tr>
-
-<tr>
-  <td> << </td>
-  <td width="150px"><a style="color:blue;font-size:16px;" href="http://www.baidu.com" class="twoji" title="新闻条目">xinwen2</a> </td>
-  <td align="right" width="10px">3</td>
-</tr>
-<tr>
-  <td> << </td>
-  <td width="150px"><a style="color:blue;font-size:16px;" href="http://www.baidu.com" class="twoji" title="新闻条目">xinwen3</a> </td>
-  <td align="right" width="10px">3</td>
-</tr>
-
-<tr>
-  <td> << </td>
-  <td width="150px"><a style="color:blue;font-size:16px;" href="http://www.baidu.com" class="twoji" title="新闻条目">xinwen4 </a> </td>
-  <td align="right" width="5px">333</td>
-</tr>
-</table>
-  </td>
 </tr>
 <tr>
   <td bgColor="#0000ff">版权所有</td>
@@ -266,7 +212,7 @@ function changeImage(idNum){
 
 </table> 
 
- <table border="1" width="100%" bgColor="#0000ff">
+ <table border="1" width="100%" height="25%" bgColor="#0000ff">
 
 <tr>
 
@@ -370,7 +316,7 @@ function changeImage(idNum){
 </select>     
   </td>
 
-  <td colspan="3" >版权所有</td>
+  <td colspan="3" height="70px">版权所有</td>
 </tr>
 
 </table>
